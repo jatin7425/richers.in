@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#body {
+    width: 100%;
+}
+
+#body .carousel-item {
+    height: 51vw;
+}
+
+@media only screen and (min-width:769px) {
+    #body #carouselExampleControlsNoTouching {
+        display: none;
+    }
+}
+
+#body #second-section {
+    margin-top: 1.5vw;
+}
+
+#body #pcheader img {
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+
+@media only screen and (max-width:769px) {
+    #body #pcheader img {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:769px) {
+    .headerspace {
+        height: 27vw;
+    }
+}
+
+#body .card {
+    margin: auto;
+}
+
+#body .back-design1 {
+    width: 100vh;
+    height: 100vh;
+    content: "";
+    background-color: rgb(0, 119, 255);
+    z-index: -2;
+    position: absolute;
+    top: 27vh;
+    border-radius: 100%;
+    right: 67%;
+}
+
+#body .back-design2 {
+    width: 50%;
+    height: 100vh;
+    content: "";
+    background-color: yellow;
+    z-index: -2;
+    position: absolute;
+    top: 91vh;
+    border-radius: 370vh 0 0 1000vh;
+    left: 49%;
+}
+
+#body .back-design3 {
+    width: 41vw;
+    height: 65vh;
+    content: "";
+    background-color:  red;
+    z-index: -2;
+    position: absolute;
+    top: 158vh;
+    border-radius: 25% 0 25% 0;
+    right: 57%;
+}
+
+#body .back-design4 {
+    width: 41vw;
+    height: 65vh;
+    content: "";
+    background-color: green;
+    border-radius: 0 25% 0 25%;
+    left: 59%;
+    top: 198vh;
+    position: absolute;
+    z-index: -2;
+}
+
+#body #offers {
+    background-color: white;
+    padding-top: 22px;
+}
+
+#body #offers >h3 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#body #offers hr {
+    margin: 25px auto;
+    width: 300px;
+}
+
+#body #offers .offer-slider {
+    margin: 10px 0 0 0;
+    width: 100%;
+    border-radius: 1vw;
+}
+
+#body #offers .offer-slider h3 {
+    text-align: center;
+    padding-bottom: 30px;
+    margin: 0;
+} 
+
+#body #offers .offer-slider .offer-in-slider {
+    height: 60%;
+    width: 100%;
+}
+#body #offers .offer-slider .offer-in-slider .offer-img-inside-slider {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    margin: 2.5% 10px;
+}
+
+#body #offers .offer-slider .offer-in-slider .offer-img-inside-slider::-webkit-scrollbar {
+    display: none;
+}
+
+
+#body #offers .offer-slider .offer-in-slider img {
+    margin: auto 10px;
+}
